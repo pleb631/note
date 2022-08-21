@@ -1,0 +1,5 @@
+- 从cmd启动jupyter
+```shell
+!conda install jupyter notebook
+!jupyter notebook
+```
