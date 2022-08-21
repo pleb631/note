@@ -32,5 +32,13 @@ git remote -v
 ```
 - 增加远程仓库
 ```
-git remote add name url
+git remote add origin url
+```
+- 推送
+```
+git push -u origin main
+```
+- 删除url
+```
+git remote rm origin
 ```
