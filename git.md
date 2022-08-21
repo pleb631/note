@@ -38,5 +38,12 @@ git remote add origin url
 ```
 git push -u origin main
 ```
-
+- 删除url
+```
+git remote rm origin
+```
+- 拉取远程
+```
+git pull <远程主机名> <远程分支名>:<本地分支名>
+```
 
