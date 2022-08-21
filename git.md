@@ -46,4 +46,8 @@ git remote rm origin
 ```
 git pull <远程主机名> <远程分支名>:<本地分支名>
 ```
-
+- 将本地暂存在缓存区和提取
+```
+git stash 
+git stash pop
+```
