@@ -3,7 +3,7 @@
 !conda install jupyter notebook
 !jupyter notebook
 ```
--Jupyter Notebook使用指定的conda环境
+- Jupyter Notebook使用指定的conda环境
  ```
  !conda install nb_conda
  ```
