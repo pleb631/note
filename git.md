@@ -38,9 +38,5 @@ git remote add origin url
 ```
 git push -u origin main
 ```
-- 删除url
-```
-git remote rm origin
-```
 
 
