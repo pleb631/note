@@ -42,7 +42,7 @@ git push -u origin main
 ```
 git remote rm origin
 ```
-- 拉取远程
+- 拉取远程并和本地分支合并
 ```
 git pull <远程主机名> <远程分支名>:<本地分支名>
 ```
