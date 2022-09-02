@@ -15,9 +15,11 @@
 | os.path.basename(path)  | 回path最后的文件名 |  |
 | os.path.exists(path)  | 如果path存在，返回True；如果path不存在，返回False |  |
 | os.path.join(path1[, path2[, …]])  | 将多个路径组合后返回 |  |
-| os.path.isdir()  | 是否为目录  |  |
-| os.path.isfile()     | 是否为文件 |  |
+| os.path.isdir(path) | 是否为目录  |  |
+| os.path.isfile(path) | 是否为文件 |  |
+| os.path.splitext(path) | 把扩展名和其他字符分开 | |
 # opencv
+
 | 模块/方法 | 作用 | 备注 |
 |---|---|---|
 | cv2.imread(path，flag=1) | 读入path路径的图片 | cv.IMREAD_COLOR： 加载彩色图像。任何图像的透明度都会被忽视。它是默认标志。<br>cv.IMREAD_GRAYSCALE：以灰度模式加载图像  <br>cv.IMREAD_UNCHANGED：加载图像，包括alpha通道 <br>注意 除了这三个标志，你可以分别简单地传递整数1、0或-1。 读入后是BGR模式,<numpy.ndarray> |
@@ -46,3 +48,12 @@
 | glob.glob(source) | 匹配满足条件的文件 | "glob.glob('dir/*') 星号(*)匹配零个或多个字符 |
 | glob.glob('dir/file?.txt') 问号(?)匹配任何单个的字符  |
 | glob.glob('dir/*[0-9].*') 匹配一个特定的字符，可以使用一个范围" |
+
+# numpy
+
+| 模块/方法                         | 作用                          | 备注        |
+| --------------------------------- | ----------------------------- | ----------- |
+| np.stack((arr1,arry2,...),axis=0) | 把指定array按新的维度进行堆叠 | 维度默认为0 |
+| np.linalg.matrix_power（gragh,n） | 计算图节点距离为n的节点       |             |
+| np.ascontiguousarray(array)       | 使array在内存空间中连续       |             |
+|                                   |                               |             |

@@ -34,7 +34,7 @@ def filter_similar_image(image_dir_path, save_image_dir_path, threshold=5):
             d &= d - 1
         return h
 
-    image_names = glob.glob(image_dir_path+'/*.jpg')
+    image_names = glob.glob(f'{image_dir_path}/*.jpg')
 
     print('Caculating hash value of images...')
     image_hash_list = []
